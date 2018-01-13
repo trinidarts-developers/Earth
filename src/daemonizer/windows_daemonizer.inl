@@ -175,7 +175,7 @@ namespace daemonizer
     }
     else // interactive
     {
-      //LOG_PRINT_L0("Monero '" << MONERO_RELEASE_NAME << "' (v" << MONERO_VERSION_FULL);
+      //LOG_PRINT_L0("Monero '" << EARTH_RELEASE_NAME << "' (v" << EARTH_VERSION_FULL);
       return executor.run_interactive(vm);
     }
 

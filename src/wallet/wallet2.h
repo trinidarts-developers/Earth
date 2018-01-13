@@ -59,8 +59,8 @@
 #include "common/password.h"
 #include "node_rpc_proxy.h"
 
-#undef MONERO_DEFAULT_LOG_CATEGORY
-#define MONERO_DEFAULT_LOG_CATEGORY "wallet.wallet2"
+#undef EARTH_DEFAULT_LOG_CATEGORY
+#define EARTH_DEFAULT_LOG_CATEGORY "wallet.wallet2"
 
 class Serialization_portability_wallet_Test;
 

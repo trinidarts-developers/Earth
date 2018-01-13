@@ -32,8 +32,8 @@
 #include "dns_utils.h"
 #include "updates.h"
 
-#undef MONERO_DEFAULT_LOG_CATEGORY
-#define MONERO_DEFAULT_LOG_CATEGORY "updates"
+#undef EARTH_DEFAULT_LOG_CATEGORY
+#define EARTH_DEFAULT_LOG_CATEGORY "updates"
 
 namespace tools
 {
@@ -41,6 +41,9 @@ namespace tools
   {
     std::vector<std::string> records;
     bool found = false;
+
+    // The update routine has not yet been implemented for earth. Skipping.
+    return found;
 
     MDEBUG("Checking updates for " << buildtag << " " << software);
 
